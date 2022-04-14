@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bai1.css">
+        <script src="bai1.js"></script>
+        <Title>PS23293 - PhamThanhThuong</Title>
+        <meta charset="UTF-8" >
+        <style>
+         
+        </style>
+    </head>
+    <body>
+        <form id="dangky"> 
+            <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+            <p>
+                <label> Mã sinh viên</label>
+                <input type="text" id="masv" class="txt" maxlength="7" placeholder="Nhập đúng 7 ký tự">
+            </P>
+            <p>
+                <label> Họ và tên</label>
+                    <input type="text" id="hoten" class="txt" placeholder="Nhập tối đa 30 ký tự"   maxlength="30">
+            </P>
+            <p>
+                 <label> Email</label>
+                    <input type="email" id="email" class="txt"  placeholder="...@gmail.com">
+            </P>
+            <p id="fs1">
+                
+                    <legend >Giới Tính</legend>
+                    <p  id="gt">
+                    <input type="radio" name="phai" value="nam">Nam
+                    <input type="radio" name="phai" value="nữ">Nữ
+                </p>
+            </p>
+   
+            <p  id="fs2">
+                
+                    <legend>Sở Thích</legend>
+                    <p id="class">
+                    <input type="checkbox" name="st">Đọc Sách
+                    <input type="checkbox" name="st">Xem Phim
+                    <input type="checkbox" name="st">Nghe Nhạc
+                    <input type="checkbox" name="st">Khác
+                </p>
+            </p>
+            <p>
+                <label>Quốc Tịch</label>
+                <select id="quoctich" class="txt">
+                    <option value="0">Chọn Quốc Tịch</option>
+                    <option value="1">Việt Nam</option>
+                    <option value="3">Trung Quốc</option>
+                    <option value="4">Mỹ</option>
+                    <option value="5">Khác</option>
+                </select>
+            </p>
+            <p>
+                <label>Ghi chú</label>
+                <textarea id="ghichu" cols="100" rows="10" class="txt"></textarea>
+            </p>
+            <div id="baoloi"></div>
+           
+            <p id="hc">
+<button  type="button" onclick="  kiemtra();" id="dangki">Đăng Ký</button>
+<button  type="reset"> Làm lại </button>
+</p>
+        </form>
+    </body>
+ </html>
+ 

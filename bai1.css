@@ -1,0 +1,110 @@
+#hm {
+    background-color: aquamarine;
+    width: 600px;
+    border:2px  solid;
+    border-radius: 30px;
+   
+    margin: auto;
+}
+
+h2{ width: 599px;
+    border-radius: 20px 20px 0px 0px ;
+   
+
+text-align: center;
+padding-bottom: 10px;
+padding-top: 15px;
+margin: auto;
+}
+
+#dangky{width: 600px;   
+margin: auto;           
+}
+#dangky label{
+    padding-left: 10px;
+    width:150px; display: inline-block; color: darkorange;
+}
+#dangky .txt{
+    width: 400px ; border: 1px solidn darkorange; padding: 10px;
+}
+#dangky button{
+    width: 150px; height: 40px; font-size: lem;
+    background-color: rgb(15, 117, 83);
+    color: aliceblue;
+}
+.txt{
+    border-radius: 30px;
+    background-color: rgb(241, 169, 101);
+}
+button{border-radius: px;
+}
+.st{
+    
+  left: 165px;
+  position: relative;
+    bottom:45px;
+
+}
+.gc{
+    position: relative;
+    bottom: 95px;
+}
+.gcc{
+    position: relative;
+    bottom: 20px;
+}
+#dangky {
+    font-size:25;
+    background-color: rgb(128, 242, 155);
+    width: 600px;
+    margin: auto;
+    padding: 10px 40px;
+    border: 3px solid rgb(9, 4, 0);
+    border-radius: 15px;
+}
+
+#dangky .txt {
+    width: 400px;
+    padding: 6px;
+    border: solid 1px rgb(1, 7, 12);
+
+}
+
+
+
+legend{
+    padding-left: 6;
+    color: darkorange;
+}
+#fs1 .input{
+    position: relative;
+   left: 1200px;
+}
+#class{
+    position: relative;
+    bottom: 57;
+    padding-left: 200;
+    border-radius: 30;
+}
+#gt{
+    position: relative;
+    bottom: 57;
+    padding-left: 200;
+
+}
+#hc{
+    text-align: center;
+}
+
+
+#dangky .txt{
+    width: 400px;padding: 6px;
+    border: solid 1px lightslategrey;
+
+}
+#dangky #baoloi{margin:0px auto;color:rgb(243, 79, 20)}
+#dangky .loi{
+    width: 400px; padding:6px;
+    border:1px solid red;background-color:yellow;
+    border-radius: 30px;
+}
